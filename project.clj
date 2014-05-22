@@ -5,6 +5,8 @@
   :dependencies [[org.clojure/clojure   "1.6.0"]
                  [cheshire              "5.3.1"]
                  [clj-http              "0.9.1" :exclusions [org.clojure/clojure]]
+                 [http-kit "2.1.16"]
+                 [org.clojure/core.async "0.1.303.0-886421-alpha"]
                  [clojurewerkz/support  "0.20.0"]
                  ;; used by the native client
                  [org.elasticsearch/elasticsearch "1.1.1"]]
